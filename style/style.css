@@ -85,9 +85,20 @@ subBody{
     display: flex;
 }
 .side1{
+    border-right: 5px solid  #3f7f50;
     background-color:#7ce498;
     width: 200px;
     height: 350px;
+    text-align: center;
+}
+.side1 img{
+    display: block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+
+
 }
 .side2{
     background-color: #f6e98b;
@@ -95,25 +106,14 @@ subBody{
     height: 350px;
 }
 footer{
-    background-color:rgb(59, 35, 35);
+    margin-top: 0px;
+    border: 5px solid #725831;
+    background-color:#ffa726;
     height:100px;
 }
-
-
-
-
-
-
-
-
-@media screen and(max-width:992pxpx){
-    body{
-        background-color: greenyellow;
- }
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: arial;
 }
-@media screen and(max-width:600px){
-    body{
-        background-color: rgb(244, 46, 148);
-    }
-}
-    
