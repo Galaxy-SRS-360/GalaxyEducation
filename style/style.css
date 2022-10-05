@@ -15,14 +15,16 @@ main{
     height:200px;
 }
 marquee{
-text-align:center;
- background-color: aqua;
- font-size: 30px;
- font-weight: 800;
- color:grey;
- font-family: sans-serif;
+    text-align:center;
+    background-color: aqua;
+    font-size: 30px;
+    font-weight: 800;
+    color:grey;
+    font-family: sans-serif;
 }
 .navBar{
+    margin-left: 1px;
+    margin-right: 1px;
     background-color: rgb(87, 63, 63);
     overflow: hidden;
     border-radius: 10px;
